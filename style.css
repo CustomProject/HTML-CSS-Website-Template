@@ -1,0 +1,269 @@
+body{
+    background-color: #F2613F;
+}
+@media(min-width: 1201px){
+
+    .main-hometab-container{
+        margin: 0;
+    }
+    .main-hometab-container > .container{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: #F2613F;
+        border-bottom: 5px #9B3922 solid;
+    }
+    .hometab-title{
+        margin-right: auto;
+    }
+    body{
+        margin: 0;
+    }
+    .buttons{
+        flex-grow: 1;
+        flex-shrink: 1;
+        min-width: 250px;
+        padding-right: 23px;
+    }
+    .button{
+        border: 0;
+        padding: 15px;
+        border-radius: 22px;
+        background-color: #DA0037;
+    }
+    .main-title-container > .container > .container-discover{
+        text-align: center;
+        border-top: 25px #C62300 solid;
+        padding-top: 90px;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    .title, .text{
+        color: white;
+    }
+    .button-explore{
+        border: 2px rgb(255, 255, 255) solid;
+        padding: 15px;
+        background-color: rgba(255, 0, 0, 0.263); 
+        text-transform: uppercase;
+    }
+    .main-title-container > .container{
+        background-color: #C62300;
+    }
+    .main-title-container{
+        border-top: 25px #C62300 solid;
+    }
+    .container-discover{
+        padding-bottom: 140px;
+        border-bottom: 10px #9B3922 solid;
+    }
+    .text{
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal;
+    }
+    .title{
+        font-family: "Rowdies", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .hometab-title-style{
+        font-family: "Rowdies", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+    }
+    .button-explore-style{
+        font-family: "Rowdies", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+        text-shadow: 3px 1px 12px #ffffff;
+    }
+    .hometab-title-style{
+        padding-left: 10px;
+    }
+    .second-container{
+        display: flex;
+        background-color: #F2613F;
+        padding-bottom: 190px;
+        flex-grow: 1;
+        flex-shrink: 1;
+        margin: 0;
+    }
+    .main-projects-container > .container{
+        padding-top: 25px;
+        padding-left: 25px;
+        display: flex;
+    }
+    .button-recipe{
+        padding-left: 34px;
+    }
+    .recipe-website{
+        padding: 15px;
+        background-color: #B85C38;
+        border: 5px #5C3D2E solid;
+    }
+    .button-recipe-style{
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal;
+
+        text-shadow: 0px 0px 10px white;
+    }
+    .text-button-style{
+        color: white;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal;
+    }
+    .recipe-img{
+        border: 5px #B85C38 solid;
+    }
+    .footer{
+        display: flex;
+        padding-top: 3px;
+        background-color: #C62300;
+        padding-bottom: 2px;
+        justify-content: center;
+        color: rgba(255, 255, 255, 0.718);
+    }
+}
+@media(min-width: 319px){
+
+    .main-hometab-container{
+        margin: 0;
+    }
+    .main-hometab-container > .container{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: #F2613F;
+        flex-grow: 1;
+        flex-shrink: 1;
+        border-bottom: 5px #9B3922 solid;
+    }
+    .hometab-title{
+        margin-right: auto;
+    }
+    body{
+        margin: 0;
+    }
+    .buttons{
+        flex-grow: 1;
+        flex-shrink: 1;
+        min-width: 250px;
+        padding-right: 23px;
+    }
+    .button{
+        border: 0;
+        padding: 15px;
+        border-radius: 22px;
+        background-color: #DA0037;
+    }
+    .main-title-container{
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    .main-title-container > .container > .container-discover{
+        text-align: center;
+        border-top: 25px #C62300 solid;
+        padding-top: 90px;
+    }
+    .title, .text{
+        color: white;
+    }
+    .button-explore{
+        border: 2px rgb(255, 255, 255) solid;
+        padding: 15px;
+        background-color: rgba(255, 0, 0, 0.263); 
+        text-transform: uppercase;
+    }
+    .main-title-container > .container{
+        background-color: #C62300;
+    }
+    .main-title-container{
+        border-top: 25px #C62300 solid;
+    }
+    .container-discover{
+        padding-bottom: 140px;
+        border-bottom: 10px #9B3922 solid;
+    }
+    .text{
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal;
+    }
+    .title{
+        font-family: "Rowdies", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .hometab-title-style{
+        font-family: "Rowdies", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+    }
+    .button-explore-style{
+        font-family: "Rowdies", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+        text-shadow: 3px 1px 12px #ffffff;
+    }
+    .hometab-title-style{
+        padding-left: 10px;
+    }
+    .second-container{
+        display: flex;
+        background-color: #F2613F;
+        padding-bottom: 190px;
+        flex-grow: 1;
+        flex-shrink: 1;
+        margin: 0;
+    }
+    .main-projects-container > .container{
+        padding-top: 25px;
+        padding-left: 25px;
+        display: flex;
+    }
+    .button-recipe{
+        padding-left: 34px;
+    }
+    .recipe-website{
+        padding: 15px;
+        background-color: #B85C38;
+        border: 5px #5C3D2E solid;
+    }
+    .button-recipe-style{
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal;
+
+        text-shadow: 0px 0px 10px white;
+    }
+    .text-button-style{
+        color: white;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal;
+    }
+    .recipe-img{
+        border: 5px #B85C38 solid;
+    }
+    .footer{
+        display: flex;
+        padding-top: 3px;
+        background-color: #C62300;
+        padding-bottom: 2px;
+        justify-content: center;
+        color: rgba(255, 255, 255, 0.718);
+    }
+}

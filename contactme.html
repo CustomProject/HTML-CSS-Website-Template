@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 5 - Contact me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+
+        body{
+            background-color: #211C84;
+        }
+        @media (min-width: 1201px){
+
+            body{
+                margin: 10px;
+            }
+            #picture{
+                float: right;
+                border: 6px blue solid;
+                border-radius: 12px;
+                box-shadow: 0 0 30px blue;
+            }
+            .texts-container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            #paragraph, #email, #discord{
+                margin: 0;
+                padding: 2px;
+            }
+            #title{
+                text-align: center;
+                text-transform: uppercase;
+                color: #5AB2FF;
+                font-family: "Rowdies", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                text-shadow: 0 0 15px #5ab2ff75;
+            }
+            .texts-box{
+                box-shadow: 0px 4px 10px #0d00fc;
+                margin-top: 20px;
+                margin-left: 250px;
+                padding: 69px;
+                background-color: rgba(30, 29, 33, 0.61);
+                border: 3px #3674B5 solid;
+                border-radius: 12px;
+                text-shadow: 1px 1px 10px black;
+                flex-wrap: nowrap;
+            }
+            #paragraph, #email{
+                color: #A1E3F9;
+            }
+            #discord{
+                padding-left: 60px;
+                color: blue;
+            }
+            #paragraph, #email, #discord{
+                font-family: "Outfit", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 200;
+                font-style: normal;
+            }
+            .button-container{
+                display: flex;
+                justify-content: center;
+            }
+            .button-box{
+                padding-left: 245px;
+                padding-top: 15px;
+            }
+            #button-1{
+                padding: 15px;
+                padding-left: 50px;
+                padding-right: 50px;
+                border: 2px #3674B5 solid;
+                background-color: #000B58;
+            }
+            #button{
+                color: #A1E3F9;
+                text-decoration: none;
+                font-family: "Rowdies", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+            .footer{
+                padding-top: 265px;
+            }
+            #footer{
+                color: #a1e3f93d;
+                text-align: right;
+            }
+            .picture-box{
+                display: block;
+            }
+        }
+
+        @media (max-width: 320px){
+
+            .main-title-container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            #picture{
+                width: 150px;
+                height: 150px;
+                margin: 20px;
+            }
+            #paragraph, #email{
+                color: #A1E3F9;
+                margin-left: 10px;
+                font-size: small;
+            }
+            .footer{
+                padding-top: 100px;
+            }
+            #footer{
+                font-size: small;
+                text-align: center;
+                color: #a1e3f93d;
+            }
+            #title{
+                text-align: center;
+                text-transform: uppercase;
+                color: #5AB2FF;
+                font-family: "Rowdies", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                text-shadow: 0 0 15px #5ab2ff75;
+                font-size: medium;
+            }
+            #discord{
+                padding-left: 49px;
+                color: blue;
+                font-size: smaller;
+            }
+            .texts-box{
+                background-color: rgba(30, 29, 33, 0.61);
+                box-shadow: 0px 4px 10px #0d00fc;
+                border: 3px #3674B5 solid;
+                border-radius: 12px;
+                text-shadow: 1px 1px 10px black;
+                padding: 10px 10px 10px 10px;
+            }
+            .button-container{
+                display: flex;
+                justify-content: center;
+            }
+            .button-box{
+                padding-left: 1px;
+                padding-top: 15px;
+            }
+            #button-1{
+                padding: 15px;
+                padding-left: 50px;
+                padding-right: 50px;
+                border: 2px #3674B5 solid;
+                background-color: #000B58;
+            }
+            #button{
+                color: #A1E3F9;
+                text-decoration: none;
+                font-family: "Rowdies", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+            #paragraph, #email, #discord{
+                font-family: "Outfit", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 200;
+                font-style: normal;
+            }
+        }
+        
+        @media(min-width: 321px) and (max-width: 502px){
+
+            .main-title-container{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            #picture{
+                width: 150px;
+                height: 150px;
+                margin: 20px;
+            }
+
+            .texts-box{
+                background-color: rgba(30, 29, 33, 0.61);
+                box-shadow: 0px 4px 10px #0d00fc;
+                border: 3px #3674B5 solid;
+                border-radius: 12px;
+                text-shadow: 1px 1px 10px black;
+                padding: 10px 10px 10px 10px;
+            }
+
+            #paragraph, #email, #discord{
+                font-family: "Outfit", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 200;
+                font-style: normal;
+            }
+
+            #title{
+                text-align: center;
+                text-transform: uppercase;
+                color: #5AB2FF;
+                font-family: "Rowdies", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                text-shadow: 0 0 15px #5ab2ff75;
+                font-size: large;
+            }
+
+            #discord{
+                padding-left: 48px;
+                color: blue;
+                font-size: smaller;
+            }
+
+            #paragraph, #email{
+                color: #A1E3F9;
+                font-size: small;
+            }
+            #email{
+                margin-left: 10px;
+            }
+
+            .button-container{
+                display: flex;
+                justify-content: center;
+            }
+
+            .button-box{
+                padding-left: 1px;
+                padding-top: 15px;
+            }
+
+            #button-1{
+                padding: 15px;
+                padding-left: 50px;
+                padding-right: 50px;
+                border: 2px #3674B5 solid;
+                background-color: #000B58;
+            }
+
+            #button{
+                color: #A1E3F9;
+                text-decoration: none;
+                font-family: "Rowdies", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+
+            .footer{
+                padding-top: 400px;
+                margin: 0;
+            }
+
+            #footer{
+                font-size: small;
+                text-align: center;
+                color: #a1e3f93d;
+            }
+            body{
+                margin: 0;
+            }
+        }
+
+        @media (min-width: 481px) and (max-width: 1200px){
+            
+            body{
+                margin: 10px;
+            }
+            #picture{
+                float: right;
+                border: 6px blue solid;
+                border-radius: 12px;
+                box-shadow: 0 0 30px blue;
+            }
+            .texts-container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            #paragraph, #email, #discord{
+                margin: 0;
+                padding: 2px;
+            }
+            #title{
+                text-align: center;
+                text-transform: uppercase;
+                color: #5AB2FF;
+                font-family: "Rowdies", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                text-shadow: 0 0 15px #5ab2ff75;
+            }
+            .texts-box{
+                box-shadow: 0px 4px 10px #0d00fc;
+                margin-top: 20px;
+                margin-left: 20px;
+                padding: 69px;
+                background-color: rgba(30, 29, 33, 0.61);
+                border: 3px #3674B5 solid;
+                border-radius: 12px;
+                text-shadow: 1px 1px 10px black;
+                flex-wrap: nowrap;
+            }
+            #paragraph, #email{
+                color: #A1E3F9;
+            }
+            #discord{
+                padding-left: 40px;
+                color: blue;
+            }
+            #paragraph, #email, #discord{
+                font-family: "Outfit", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 200;
+                font-style: normal;
+            }
+            .button-container{
+                display: flex;
+                justify-content: center;
+            }
+            .button-box{
+                padding-left: 10px;
+                padding-top: 15px;
+            }
+            #button-1{
+                padding: 15px;
+                padding-left: 50px;
+                padding-right: 50px;
+                border: 2px #3674B5 solid;
+                background-color: #000B58;
+            }
+            #button{
+                color: #A1E3F9;
+                text-decoration: none;
+                font-family: "Rowdies", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+            .footer{
+                padding-top: 590px;
+            }
+            #footer{
+                color: #a1e3f93d;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="main-title-container">
+            <h1 id="title">Where can you contact me</h1>
+            <div class="picture-box"><img id="picture" src="./assets/picture/3c18e7cbd79994c9aabe46d521151364.png" width="250px" alt="Custom Projects's Avatar"/></div>
+            <div class="texts-container">
+                <div class="texts-box">
+                <p id="paragraph">You can contact me via email or discord.</p>
+                <p id="email">customprojectsbusiness@gmail.com</p>
+                <a id="discord" href="https://discord.gg/3wqsKhg8PR">Join my Discord Server</a>
+                </div>
+            </div>
+        </div>
+        <div class="button-container">
+            <div class="button-box">
+                <button id="button-1"><a href="./index.html" id="button">Home</a></button>
+            </div>     
+        </div>
+    </div>
+    <div class="footer">
+        <footer id="footer"><p>&copy; 2025 Custom Projects. All rights reserved.</p></footer>
+    </div>
+</body>
+</html>

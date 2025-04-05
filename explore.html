@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 5 | Explore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+
+        body{
+            margin: 0;
+            background-color: #AB886D;
+        }
+
+        #button, #button-2{
+            font-family: "Outfit", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .title-wrapper{
+            text-transform: uppercase;
+            text-align: center;
+
+            font-family: "Rowdies", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            color: #FFAB5B;
+            text-shadow: 0 0 7px #443627;
+        }
+
+        
+        .paragraph{
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.396);
+            color: #FBF5DD;
+            padding-right: 1vh;
+            padding-left: 1vh;
+            border: 4px solid #ff6a06b0;
+            border-radius: 4px;
+            box-shadow: 0 0 10px #73340ab0;
+        }
+
+        @media(min-width: 481px) and (max-width: 1200px){
+
+            #img-size{
+                width: 140px;
+                height: 140px;
+                background: radial-gradient(orange, rgb(103, 71, 12), rgb(63, 43, 7));
+                border: 5px black solid;
+            }
+            .images-box-grid{
+                display: grid;
+                grid-template-rows: auto auto auto;
+                grid-template-columns: auto auto auto;
+                text-align: center;
+                row-gap: 90px;
+            }
+            #button-2{
+                margin-top: 3px;
+                padding: 10px;
+            }
+            #button{
+                margin-top: 6px;
+            }
+        }
+        .footer-text{
+            color: rgba(255, 255, 255, 0.39);
+        }
+        #button-2{
+            background:radial-gradient(#ED7D31, #ED7D31, #aa4909);
+            border: 6px solid #E38B29;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 0.721);
+        }
+        #button{
+            background:radial-gradient(#0C0950, #0C0950, #161179);
+            border: 6px solid #261FB3;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 0.721);
+        }
+
+        @media(min-width: 1201px){
+            
+            #img-size{
+                width: 140px;
+                height: 140px;
+                background: radial-gradient(orange, rgb(103, 71, 12), rgb(63, 43, 7));
+                border: 5px black solid;
+            }
+            .images-box-grid{
+                display: grid;
+                grid-template-rows: auto auto auto auto auto;
+                grid-template-columns: 200px 200px 200px 200px 200px 200px 200px;
+                text-align: center;
+                row-gap: 20px;
+                padding-top: 25px;
+            }
+            #button-2{
+                margin-top: 3px;
+                padding: 10px;
+            }
+            #button{
+                margin-top: 6px;
+            }
+            .footer{
+                display: flex;
+                justify-content: center;
+            }
+        }
+        
+        @media(min-width: 319px) and (max-width: 480px){
+            
+            #img-size{
+                width: 140px;
+                height: 140px;
+                background: radial-gradient(orange, rgb(103, 71, 12), rgb(63, 43, 7));
+                border: 5px black solid;
+            }
+            .title-section-grid{
+                display: flex;
+                justify-content: center;
+            }
+            .button-wrapper{
+                display: flex;
+                justify-content: center;
+            }
+            #button-2{
+                margin-top: 3px;
+                padding: 10px;
+            }
+            #button{
+                margin-top: 6px;
+                margin-bottom: 10px;
+            }
+            .footer{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="explore-main-container">
+        <div class="explore-main-box">
+            <div class="explore-box">
+                <div class="title-section">
+                    <div class="title-container-wrapper">
+                        <div class="title-wrapper"><h2 id="title">Explore my Websites</h2></div>
+                    </div>
+                </div>
+                <div class="title-section-grid">
+                    <div class="images-box-grid">
+                        <div id="one">
+                            <img id="img-size" src="./assets/question_mark.png" text="Your Text"/>
+                            <div class="button-wrapper button-wrapper2-position"><button id="button-2" onclick="location.href='https://github.com/CustomProject'">Go to Website</button></div> <!--Change the https://github.com/CustomProject with your website or page-->
+                            <div class="button-wrapper button-wrapper-position"><button id="button" onclick="location.href='./index.html'">Go back</button></div>
+                        </div>
+                        <div id="two">
+                            <img id="img-size" src="./assets/question_mark.png" text="Your Text"/>
+                            <div class="button-wrapper button-wrapper2-position"><button id="button-2" onclick="location.href='https://github.com/CustomProject'">Go to Website</button></div> <!--Change the https://github.com/CustomProject with your website or page-->
+                        </div>
+                        <div id="three">
+                            <img id="img-size" src="./assets/question_mark.png" text="Your Text"/>
+                            <div class="button-wrapper button-wrapper2-position"><button id="button-2" onclick="location.href='https://github.com/CustomProject'">Go to Website</button></div> <!--Change the https://github.com/CustomProject with your website or page-->
+                        </div>
+                        <div id="four">
+                            <img id="img-size" src="./assets/question_mark.png" text="Your Text"/>
+                            <div class="button-wrapper button-wrapper2-position"><button id="button-2" onclick="location.href='https://github.com/CustomProject'">Go to Website</button></div> <!--Change the https://github.com/CustomProject with your website or page-->
+                        </div>
+                        <div id="five">
+                            <img id="img-size" src="./assets/question_mark.png" text="Your Text"/>
+                            <div class="button-wrapper button-wrapper2-position"><button id="button-2" onclick="location.href='https://github.com/CustomProject'">Go to Website</button></div> <!--Change the https://github.com/CustomProject with your website or page-->
+                        </div>
+                        <div id="six">
+                            <img id="img-size" src="./assets/question_mark.png" text="Your Text"/>
+                            <div class="button-wrapper button-wrapper2-position"><button id="button-2" onclick="location.href='https://github.com/CustomProject'">Go to Website</button></div> <!--Change the https://github.com/CustomProject with your website or page-->
+                        </div>
+                        <div id="seven">
+                            <img id="img-size" src="./assets/question_mark.png" text="Your Text"/>
+                            <div class="button-wrapper button-wrapper2-position"><button id="button-2" onclick="location.href='https://github.com/CustomProject'">Go to Website</button></div> <!--Change the https://github.com/CustomProject with your website or page-->
+                        </div>
+                        <div id="eight">
+                            <img id="img-size" src="./assets/question_mark.png" text="Your Text"/>
+                            <div class="button-wrapper button-wrapper2-position"><button id="button-2" onclick="location.href='https://github.com/CustomProject'">Go to Website</button></div> <!--Change the https://github.com/CustomProject with your website or page-->
+                        </div>
+                        <div id="nine">
+                            <img id="img-size" src="./assets/question_mark.png" text="Your Text"/>
+                            <div class="button-wrapper button-wrapper2-position"><button id="button-2" onclick="location.href='https://github.com/CustomProject'">Go to Website</button></div> <!--Change the https://github.com/CustomProject with your website or page-->
+                        </div>
+                    </div>
+                </div>     
+            </div>
+        </div>
+    </div>
+    <div class="footer"><footer class="footer-text"><p>&copy; 2025 Custom Projects. All rights reserved.</p></footer></div>
+</body>
+</html>
