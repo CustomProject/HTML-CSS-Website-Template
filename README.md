@@ -22,4 +22,3 @@ If you have any questions or suggestions, feel free to contact me!
 
 ## Credit
 Template design by **Custom Projects (custom)**.
-Images used in this project are created using **Bing AI**.
